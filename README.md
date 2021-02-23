@@ -1,4 +1,4 @@
-# Terraform Module for TFE workspace management 
+# Terraform Module for TFE workspace management
 
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
@@ -6,15 +6,25 @@
 
 | Name | Version |
 |------|---------|
-| terraform | ~> 0.12.24 |
-| tfe | ~> 0.15.0 |
+| terraform | >= 0.12.7, < 0.14 |
 | tfe | ~> 0.15.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| tfe | ~> 0.15.0 ~> 0.15.0 |
+| tfe | ~> 0.15.0 |
+
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name |
+|------|
+| [tfe_variable](https://registry.terraform.io/providers/hashicorp/tfe/0.15.0/docs/resources/variable) |
+| [tfe_workspace](https://registry.terraform.io/providers/hashicorp/tfe/0.15.0/docs/resources/workspace) |
 
 ## Inputs
 
@@ -37,5 +47,4 @@
 ## Outputs
 
 No output.
-
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
